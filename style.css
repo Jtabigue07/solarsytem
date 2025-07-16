@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    width: 120px;
+}
+button {
+    padding: 8px 18px;
+    border-radius: 5px;
+    border: none;
+    background: #ff9800;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #e67e22;
+}
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin: 30px 0;
+}
+.planet {
+    margin-bottom: 20px;
+    background: rgba(44, 62, 80, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    padding: 18px 16px;
+    width: 340px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.planet:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+.planet label {
+    font-size: 1.2em;
+    color: #ff9800;
+    letter-spacing: 1px;
+}
+.planet span {
+    display: block;
+    margin: 10px 0 8px 0;
+    font-size: 1.1em;
+    color: #fff;
+}
+video {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    margin-top: 8px;
+}
